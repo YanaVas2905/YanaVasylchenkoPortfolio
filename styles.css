@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(234, 180, 255);
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#maintitle {
+    width: 500px;
+    margin-left: 50px;
+    padding-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 42px;
+}
+
+#maindescription {    
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 24px;
+}
+
+#mainphoto {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#link {
+    color: black;
+font-size: 18px;
+font-style: italic;
+}
+
+#abouttitle {
+    background-color: rgb(235, 205, 247);
+    color: rgb(61, 14, 104);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+}
+
+#aboutdescr {
+color: rgb(24, 4, 43);
+font-size: 18px;
+}
+
+#summary {
+    background-color: rgb(214, 159, 236);
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#contacttitle {
+    width: 500px;
+    margin-left: 50px;
+    padding-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contactinfo {
+    background-color: rgb(243, 231, 248);
+    color: rgb(61, 14, 104);
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+}
+
+#galerytitle {
+    background-color: rgb(243, 231, 248);
+    color: rgb(61, 14, 104);
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+#galery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+#galery img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
